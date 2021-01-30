@@ -1,0 +1,66 @@
+// 计算字体大小
+@mixin html-css($device-width) {
+  html {
+    $x: $device-width / $refer-width;
+    font-size: $html-font-size * $x;
+  }
+}
+
+@mixin input-placeholder($fontSize, $color:#c3c3c3) {
+  input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: $color;
+    /* placeholder字体大小  */
+    font-size: computer($fontSize);
+    /* placeholder位置  */
+    text-align: left;
+  }
+  input::-moz-placeholder{
+     /* placeholder颜色  */
+     color: $color;
+     /* placeholder字体大小  */
+     font-size: computer($fontSize);
+     /* placeholder位置  */
+     text-align: left;
+  }
+  input::-ms-input-placeholder{
+     /* placeholder颜色  */
+     color: $color;
+     /* placeholder字体大小  */
+     font-size: computer($fontSize);
+     /* placeholder位置  */
+     text-align: left;
+  }
+}
+
+@mixin computer-html-font-size() {
+  // $first-width: nth($device-width, 1);
+
+  // @media screen and (max-width: $first-width) {
+  //   @include html-css($first-width);
+  // }
+
+  @for $i from 1 to length($device-width) {
+    $min-width: nth($device-width, $i);
+    $max-width: nth($device-width, $i + 1);
+
+    @media screen and (max-width: $max-width) and (min-width: $min-width) {
+      @include html-css($max-width);
+    }
+  }
+
+  // $last-width: nth($device-width, length($device-width));
+
+  // @media screen and (min-width: $last-width) {
+  //   @include html-css($last-width);
+  // }
+}
+
+// 字体
+@mixin font-size() {
+  @each $size in $font-sizes {
+    .font#{$size} {
+      font-size: computer($size);
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.content_box {
+    left: 200px;
+}
+
+.classify_box .handle-select {
+    height: 28px;
+    width: 300px;
+}
+
+.el-table th {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+.tab_no_border th,
+.tab_no_border td {
+    border-color: #fff;
+}
+
+.tab_no_border td .rourse_name {
+    width: 100%;
+    max-width: 137px;
+    height: 32px;
+    text-indent: .5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.tab_no_border td .handle-select {
+    width: 100%;
+    max-width: 120px;
+}
+
+.add_vid {
+    background-color: #b2b7c1;
+    border-color: #b2b7c1;
+}
+
+.el-radio+.el-radio {
+    margin-left: 10px;
+}
+
+.el-radio {
+    margin-left: 10px;
+}
+
+.el-dialog__body {
+    padding: 10px 20px;
+}
+
+
+/* .el-submenu .el-menu-item{
+	padding-left: 50px!important;
+} */
+
+h3 {
+    border-bottom: 1px dashed #333;
+}

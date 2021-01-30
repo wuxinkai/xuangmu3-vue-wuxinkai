@@ -1,0 +1,340 @@
+{
+  "data": [{
+      "icon": "command.png",
+      "index": "/Home",
+      "title": "系统首页"
+    },
+    {
+      "icon": "control.png",
+      "index": "3",
+      "title": "vue-route的使用",
+      "subs": [{
+          "index": "/vueRoute/routePath",
+          "title": "路由传参"
+        },
+        {
+          "index": "/vueRoute/routeHook",
+          "title": "路由钩子函数"
+        },
+        {
+          "index": "/vueRoute/routeStorage",
+          "title": "路由缓存localstorage"
+        },
+        {
+          "index": "/vueRoute/keepAlives",
+          "title": "keepAlives缓存和params 传参缓存"
+        },
+        {
+          "index": "/vueRoute/routeComp",
+          "title": "分配菜单"
+        }
+      ]
+    },
+    {
+      "icon": "culture.png",
+      "index": "4",
+      "title": "组件通信",
+      "subs": [{
+        "index": "/vueComm/busUsed",
+        "title": "兄弟组件之间方法调用"
+      }, {
+        "index": "/vueVitality/subscribe",
+        "title": "(父子组件通信)发布订阅"
+      }, {
+        "index": "/vueVitality/brother",
+        "title": "(兄弟组件通信)发布订阅"
+      },{
+        "index": "/vueVitality/target",
+        "title": "事件委托"
+      },{
+        "index": "/vueVitality/fuzzySearch",
+        "title": "模糊搜索"
+      }]
+    },
+    {
+      "icon": "custom.png",
+      "index": "5",
+      "title": "表格内容",
+      "subs": [{
+        "index": "/table/tableVisible",
+        "title": "定制可见列"
+      }, {
+        "index": "/table/tableDemo",
+        "title": "表格分页"
+      }, {
+        "index": "/table/exportTable",
+        "title": "表格导出"
+      }]
+    },
+    {
+      "icon": "data.png",
+      "index": "6",
+      "title": "常用组件",
+      "subs": [{
+          "index": "/vuePublic/vueLazyload",
+          "title": "图片懒加载"
+        },
+        {
+          "index": "/vuePublic/vueTabs",
+          "title": "tab切换"
+        },
+        {
+          "index": "/vuePublic/preview",
+          "title": "图片预览"
+        },
+        {
+          "index": "/vuePublic/vueQuillEditor",
+          "title": "quill-editor编辑器"
+        },
+        {
+          "index": "/vuePublic/tinymce",
+          "title": "tinymce编辑器"
+        },
+        {
+          "index": "/vuePublic/map1",
+          "title": "百度地图"
+        },
+        {
+          "index": "/vuePublic/vueSvgTab",
+          "title": "vue-svg云标签"
+        },
+        {
+          "index": "/vuePublic/highcharts",
+          "title": "highcharts"
+        },
+        {
+          "index": "/vuePublic/translate",
+          "title": "中英翻译"
+        },
+        {
+          "index": "/vuePublic/recursion",
+          "title": "递归组件使用"
+        },
+        {
+          "index": "/vuePublic/resizeDom",
+          "title": "动态设置面高度"
+        },
+        {
+          "index": "/vuePublic/scaleZoom",
+          "title": "缩放设置面高度"
+        },
+        {
+          "index": "/vuePublic/parentChild",
+          "title": "父子组件在同一页面"
+        },
+        {
+          "index": "/vuePublic/timeElectronic",
+          "title": "电子时间"
+        },
+        {
+          "index": "/vueComm/timer",
+          "title": "页面跳转关闭定时器"
+        },
+        {
+          "index": "/vuePublic/iframe",
+          "title": "iframe和postMessage"
+        },
+        {
+          "index": "/vuePublic/vueCodemirror",
+          "title": "vueCodemirror插件"
+        },
+        {
+          "index": "/vuePublic/vueWeather",
+          "title": "天气预报"
+        }
+      ]
+    },
+    {
+      "icon": "develop.png",
+      "index": "7",
+      "title": "vue生命周期",
+      "subs": [{
+        "index": "/vueVitality/computed",
+        "title": "computed计算属性"
+      }, {
+        "index": "/vueVitality/watch",
+        "title": "watch计算属性"
+      }, {
+        "index": "/vueVitality/filter",
+        "title": "filter过滤器"
+      }, {
+        "index": "/vueVitality/cycle",
+        "title": "钩子函数(回调函数)"
+      }, {
+        "index": "/vueVitality/mounted",
+        "title": "mounted操作dom"
+      }, {
+        "index": "/vueVitality/methods",
+        "title": "methods方法选项"
+      }, {
+        "index": "/vueVitality/slot",
+        "title": "slot插槽"
+      }, {
+        "index": "/vueVitality/lifeCycle",
+        "title": "生命周期"
+      }, {
+        "index": "/vueVitality/effect",
+        "title": "vue属性作用"
+      }, {
+        "index": "/vueVitality/useMiXin",
+        "title": "MiXin混入写法"
+      }]
+    },
+    {
+      "icon": "make.png",
+      "index": "8",
+      "title": "vue动画",
+      "subs": [{
+        "index": "/Interview/vueTopic1",
+        "title": "vue动画"
+      }, {
+        "index": "/Interview/transition",
+        "title": "vue动画"
+      }]
+    },
+    {
+      "icon": "model.png",
+      "index": "9",
+      "title": "element-ui",
+      "subs": [{
+        "index": "/elementUi/model",
+        "title": "模态框"
+      }, {
+        "index": "/elementUi/wenTi",
+        "title": "element中的问题"
+      }]
+    },
+    {
+      "icon": "sand_table.png",
+      "index": "10",
+      "title": "vue内置指令",
+      "subs": [{
+        "index": "/directive/vueAttribute",
+        "title": "内置指令"
+      }, {
+        "index": "/directive/vueDir",
+        "title": "自定义指令"
+      }]
+    },
+    {
+      "icon": "service.png",
+      "index": "11",
+      "title": "vuex的学习",
+      "subs": [{
+        "index": "/vuex/vuexExample",
+        "title": "vuex学习"
+      }, {
+        "index": "/vuex/vuexExample2",
+        "title": "vuex数据持久化"
+      }]
+    },
+    {
+      "icon": "texture.png",
+      "index": "12",
+      "title": "css3和css学习",
+      "subs": [{
+        "index": "/css3/css3",
+        "title": "css3溢出..."
+      }, {
+        "index": "/css3/cssMethod",
+        "title": "css常用方法"
+      }, {
+        "index": "/css3/responsive",
+        "title": "css响应式设计"
+      }]
+    },
+    {
+      "icon": "train.png",
+      "index": "13",
+      "title": "es6的学习",
+      "subs": [{
+        "index": "/es6/es01",
+        "title": "es6的学习"
+      }, {
+        "index": "/es6/async_await",
+        "title": "async/await的学习"
+      }]
+    },
+    {
+      "icon": "twinborn.png",
+      "index": "14",
+      "title": "拖拽插件",
+      "subs": [{
+        "index": "/tuozhuai/drag",
+        "title": "拖拽插件"
+      }, {
+        "index": "/tuozhuai/dragZone",
+        "title": "拖拽布局"
+      }, {
+        "index": "/tuozhuai/drop",
+        "title": "自定义拖拽"
+      }]
+    },
+    {
+      "icon": "voice.png",
+      "index": "15",
+      "title": "echarts地图",
+      "subs": [{
+          "index": "/map/echartsIn",
+          "title": "vue-echarts的应用"
+        },
+        {
+          "index": "/map/echartsXiaZuan",
+          "title": "地图下钻到县级"
+        },
+        {
+          "index": "/map/echartsStars",
+          "title": "新浪签到信息图"
+        }
+      ]
+    },
+    {
+      "icon": "voice.png",
+      "index": "16",
+      "title": "组件封装",
+      "subs": [{
+        "index": "/potting/encapsulation",
+        "title": "封装组件"
+      }, {
+        "index": "/potting/toduList",
+        "title": "toduList列表"
+      }, {
+        "index": "/directive/vueTodo",
+        "title": "增删改查案例"
+      }, {
+        "index": "/potting/vueFind",
+        "title": "将两个数组联系到一起"
+      },{
+        "index": "/potting/globalMessage",
+        "title": "全局Message和loading组件"
+      }]
+    },
+    {
+      "icon": "voice.png",
+      "index": "17",
+      "title": "three.js学习",
+      "subs": [{
+        "index": "/threeFolder/threedome1",
+        "title": "three基础知识"
+      }, {
+        "index": "/threeFolder/ModelIndex",
+        "title": "模型"
+      }, {
+        "index": "/threeFolder/threedome2",
+        "title": "three封装"
+      }, {
+        "index": "/threeFolder/zuobiaoxi",
+        "title": "坐标系"
+      }, {
+        "index": "/threeFolder/zuobiaozhouxuanzhuan",
+        "title": "坐标轴旋转"
+      }, {
+        "index": "/threeFolder/tweenAndStats",
+        "title": "监控帧数和动画"
+      }, {
+        "index": "/threeFolder/zoom",
+        "title": "放大缩小"
+      }]
+    }
+  ]
+}

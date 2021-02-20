@@ -289,6 +289,41 @@ export default {
 </script>
 ```
 
+## 父组件和 孙子组件的 v-bind="$attrs" v-on="$listeners"
+
+```
+  <childC class="888" v-bind="$attrs" v-on="$listeners"></childC>
+
+```
+
+必填属性 inheritAttrs: false
+
+```
+export default {
+
+  data() {
+    return {
+      msg: "儿子组件"
+    }
+  },
+  components: {
+    childC,
+  },
+  inheritAttrs: false, //必填
+    methods: {
+    toParent() {
+      this.$emit('test1', this.msg); //发送事假
+    },
+  }
+};
+```
+
+接收 数据
+
+```
+
+```
+
 ## 插件的引入方式
 
 ### 图片预览

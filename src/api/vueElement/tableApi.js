@@ -13,3 +13,5 @@ function resorve(path){
  export function getAsynData(params){ //进行 ajax请求
   return http.ajax({ url: resorve('/example/tableData'), method: 'GET' }, params)
  }
+
+ 

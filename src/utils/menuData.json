@@ -43,6 +43,9 @@
       }, {
         "index": "/vueVitality/brother",
         "title": "(兄弟组件通信)发布订阅"
+      }, {
+        "index": "/vueVitality/listener",
+        "title": "父组件和孙子组件通讯"
       },{
         "index": "/vueVitality/target",
         "title": "事件委托"

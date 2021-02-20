@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "mock": "json-server ./mock/news.js -r ./mock/route.json -p 3000 --watch"
   },
   "dependencies": {
     "axios": "^0.15.3",
@@ -29,6 +30,7 @@
     "js-cookie": "^2.2.0",
     "loadsh": "0.0.3",
     "lodash": "^4.17.11",
+    "mockjs": "^1.1.0",
     "node-sass": "^4.14.1",
     "qs": "^6.5.2",
     "stats-js": "^1.0.1",

@@ -285,6 +285,18 @@ export default [
     }
   },
   {
+    path: "listener",
+    name: "listener",
+    component: resolve =>
+      require(["#/vueVitality/listener.vue"], resolve),
+    meta: {
+      title: "父組件和孫子組件通訊",
+      isUseCache: false,
+      keepAlive: false,
+      breadcrumbLeft: true
+    }
+  },
+  {
     path: "brother",
     name: "brother",
     component: resolve => require(["#/vueVitality/brother.vue"], resolve),

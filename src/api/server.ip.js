@@ -2,7 +2,7 @@
 let nodeEnv = 'development'
 let IP = ''
 if (nodeEnv === 'development') {
-  IP = 'https://www.easy-mock.com/mock/5bbab3f329a4d80bbccbcb81'
+  IP = 'http://localhost:3000/'
 }
 export const baseHref = IP
 

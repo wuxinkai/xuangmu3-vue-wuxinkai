@@ -27,8 +27,7 @@ export default {
     //请求本地数据
     getData() {
       this.http.get('../../../static/json/data.json').then(response => {
-        console.log(response.data);
-        debugger
+        this.items = response.data
       }, response => {
         console.log("error");
       });
@@ -40,10 +39,10 @@ export default {
     // （2）判断是否获取到内容
     if (localMenus) { //获取到就用localMenus的内容
       this.mag = '走了缓存'
-      // this.items = eval("(" + localMenus + ")");
       this.items = JSON.parse(localMenus)
     } else { //获取不到就 走请求
-      this.http.get('https://www.easy-mock.com/mock/5bbab3f329a4d80bbccbcb81/example/localStorage').then((data) => {
+      this.http.get('http://localhost:3000/news').then((data) => {
+        debugger
         if (data.status == 200) {
           //（3）将请求的的内容存储到localStorage里面
           this.items = data.data.data

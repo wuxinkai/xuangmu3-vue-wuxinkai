@@ -7,6 +7,7 @@ import tableVisible from './modules/vueElement/vuexTable'
 import vuexTestIndex from './modules/vueElement/vuexTest'
 import echartRadar from './echart/radar'
 import screen from './modules/screen/vuexScreen'
+import mockTextVal from './mock/mockText'
 Vue.use(Vuex)
 
 // 除了 state 是分模块的，其他 mutations 和 actions 都不分模块，因此规划的时候要注意不要重名！
@@ -17,6 +18,7 @@ const store = new Vuex.Store({
     example,//vuex 案例
     tableVisible, //定制可见列
     vuexTestIndex, //获取表格数据和分页
+    mockTextVal,
     echartRadar, //echar数据
     screen, //电子表时间
     user, //获取登录的信息

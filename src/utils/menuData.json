@@ -41,8 +41,11 @@
         "index": "/vueVitality/subscribe",
         "title": "(父子组件通信)发布订阅"
       }, {
+        "index": "/vueVitality/provide",
+        "title": "兄弟通信(provide和inject)"
+      },{
         "index": "/vueVitality/brother",
-        "title": "(兄弟组件通信)发布订阅"
+        "title": "(兄弟组件通信)bus"
       }, {
         "index": "/vueVitality/listener",
         "title": "父组件和孙子组件通讯"
@@ -256,6 +259,9 @@
       }, {
         "index": "/es6/async_await",
         "title": "async/await的学习"
+      },{
+        "index": "/es6/async_await2",
+        "title": "按顺序执行"
       }]
     },
     {

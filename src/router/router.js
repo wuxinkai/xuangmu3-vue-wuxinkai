@@ -297,6 +297,18 @@ export default [
     }
   },
   {
+    path: "provide",
+    name: "provide",
+    component: resolve =>
+      require(["#/vueVitality/provide.vue"], resolve),
+    meta: {
+      title: "兄弟通信(provide和inject)",
+      isUseCache: false,
+      keepAlive: false,
+      breadcrumbLeft: true
+    }
+  },
+  {
     path: "brother",
     name: "brother",
     component: resolve => require(["#/vueVitality/brother.vue"], resolve),
@@ -1146,6 +1158,15 @@ export default [
       keepAlive: false
     },
     component: resolve => require(["#/es6/async_await.vue"], resolve)
+  }, {
+    path: "async_await2",
+    name: "async_await2",
+    meta: {
+      title: "async_await2",
+      isUseCache: false,
+      keepAlive: false
+    },
+    component: resolve => require(["#/es6/async_await2.vue"], resolve)
   }
   ]
 }]

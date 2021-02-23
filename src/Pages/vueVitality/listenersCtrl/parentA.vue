@@ -4,7 +4,8 @@
     <p>父亲</p>
     <p>父页面接收**** {{test1}}</p>
     <p>父页面接收**** {{test2}}</p>
-    <childB @test1="handleDest1" @test2="handleDest2" v-bind="$attrs" v-on="$listeners" class="777"></childB>
+    <p>父页面接收**** {{test3}}</p>
+    <childB @test1="handleDest1" @test3="handleDest3" @test2="handleDest2" v-bind="$attrs" v-on="$listeners" class="777"></childB>
     </p>
   </div>
 
@@ -16,7 +17,8 @@ export default {
   data() {
     return {
       test2: '',
-      test1: ''
+      test1: '',
+      test3: ''
     }
   },
   inheritAttrs: false, //必填
@@ -29,6 +31,9 @@ export default {
     },
     handleDest2(data) {
       this.test2 = data
+    },
+    handleDest3(data) {
+      this.test3 = data
     }
   }
 };

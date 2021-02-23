@@ -3,12 +3,14 @@
     <p class="box2">儿子
       <button @click="toParent">儿子点击事件</button>
       <childC class="888" v-bind="$attrs" v-on="$listeners"></childC>
+      <childC1 class="777" v-bind="$attrs" v-on="$listeners"></childC1>
     </p>
   </div>
 
 </template>
 <script>
 import childC from "./childC";
+import childC1 from "./childC1";
 export default {
 
   data() {
@@ -18,6 +20,7 @@ export default {
   },
   components: {
     childC,
+    childC1
   },
   inheritAttrs: false, //必填
   methods: {
